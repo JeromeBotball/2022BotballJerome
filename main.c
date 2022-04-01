@@ -5,7 +5,7 @@ int main()
     printf("Hello World\n");
     motor(0,40);
     motor(3,40);
-    msleep(4000);
+    msleep(4000);// servo #1 positiong 0
     
     motor(0,0);
     motor(3,47);
